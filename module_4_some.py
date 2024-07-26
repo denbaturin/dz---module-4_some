@@ -4,4 +4,5 @@ def test_function():
     inner_function()
 
 test_function()
-inner_function()
+inner_function()  # при реализации кода появится ошибка из-за того, что функция не определена
+                  # в глобальном пространстве имен
